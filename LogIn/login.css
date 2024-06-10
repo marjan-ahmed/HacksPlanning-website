@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Vina+Sans&display=swap');
+
+body{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: rgb(234, 234, 247)
+};
+ul{
+    list-style-type: none;
+}
+li{
+    list-style: none;
+    float: left;
+    margin-left: 27px;
+    font-family:  Wotfard, serif;
+    font-size: 15.2px;
+    color: rgb(87, 87, 87);
+}
+li:hover{
+    color: black;
+    border-bottom: 2px solid rgb(88, 87, 87);;
+    padding-bottom: 10px;
+}
+#logo{
+    font-family: "Vina Sans", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(88, 87, 87);
+    padding: 0px;
+    margin-left: -9px;
+    margin-top: -20px;
+    font-size: 17px;
+}
+#logo:hover{
+    border-bottom: none;
+    cursor: pointer;
+}
+.left-li,li{
+    margin-top: 23px;
+}
+
+#login-heading{
+    font-size: 25px;
+    font-family: Wotfard, serif;
+    margin-top: 20vh;
+}
+
+#log{
+    padding: 20px;    
+    text-align: center;
+}
+
+.container{
+    width: 36vw;
+    height: 78vh;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(206, 206, 206);
+    border-radius: 3px;
+}
+
+label{
+    font-family: poppins;
+    font-size: 13px;
+    display: block;
+    text-align: left;
+    padding-left: 5vw;
+    padding-top: 50px;
+}
+
+input{
+    width: 67%;
+    height: 4vh;
+    padding: 10px;
+    margin-top: -5vh;
+    border: 1px solid rgb(206, 206, 206);
+    border-radius: 3px;
+}
+.login-btn{
+    width: 67%;
+    height: 6vh;
+    margin-top: 40px;
+    background-color: #4F46EF;
+    border: none;
+    border-radius: 5px;
+    outline: #3932c2;
+    color: white;
+    font-weight: 800;
+    font-family: jost;
+    letter-spacing: 0.1rem;
+    font-size: 15px;
+}
+
+fieldset {
+    margin-top: 30px;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    padding: auto;
+}
+legend{
+    font-family: jost;
+}
+
+#login-btns{
+    margin-top: 20px;
+    
+}
+i{
+    font-size: 22px;
+}
+#github-btn{
+    width: 12vw;
+    height: 6vh;
+    border-radius: 30px;
+    margin-right: 12px;
+    font-size: 16px;
+    font-family: jost;
+    border: 1px solid rgb(121, 121, 121);
+}
+
+#google-btn{
+    width: 12vw;
+    height: 6vh;
+    border-radius: 30px;
+    margin-left: 12px;
+    font-size: 16px;
+    font-family: jost;
+    border: 1px solid rgb(121, 121, 121);
+}
